@@ -1,0 +1,135 @@
+/* =========================BODY=================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* @@@@@@@@@@@@@@ */
+
+
+/* ======================CONTENT===================== */
+.content{
+    background-image: url("assets/andrik-langfield-N8Bqv6hfvow-unsplash.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 500px; 
+    margin-top: 300px;
+ 
+}
+
+/* ===================================*/
+
+
+/* =======================Navigation ===================*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d56ab0;
+    padding: 15px 30px;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+   align-items: center;
+}
+
+.contact-btn {
+    background: none;
+    border: none;
+}
+
+.contact-btn img {
+    width: 25px;
+    cursor: pointer;
+}
+.logoUtilisateurs{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    
+}
+/* ========================================== */
+
+input{
+    display: flex;
+    align-items: center;
+}
+footer{
+    background-color: #d56ab0;
+    padding: 200px;
+}
+.barre_search{
+    display: flex;
+    align-items: center;
+ justify-content: center;
+ margin: 50px;
+}
+.search{
+    width: 300px;
+    border-radius: 50px;
+}
+
+
+/* =========================Style du carrousel================== */
+.carousel-container {
+    position: relative;
+    width: 80%; 
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 200px; 
+    margin-right: 20px; 
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+

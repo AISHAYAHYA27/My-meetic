@@ -1,0 +1,55 @@
+/* ============================CONNEXION====================== */
+
+body {
+    background-color:	#f9bbe6;
+}
+
+.container {
+    margin: auto;
+    border: solid 2px	#f9bbe6;
+    width: fit-content;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #f20b97;
+
+}
+
+.container:hover {
+    background-color: rgb(222, 12, 148);
+}
+
+h1 {
+    color: 	#f9bbe6;
+    display: flex;
+    justify-content: center;
+}
+input{
+   color: white;
+    background-color:	#f9bbe6;
+    border: solid 1px white;
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px;
+}
+select{
+    color: white;
+    background-color: 	#f9bbe6;
+    border: solid 1px white;
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px;
+}
+.submit{
+    background-color: white;
+    color: rgb(189, 27, 108);
+}
+.placeholder{
+    color: white;
+}
+h5{
+    display: flex;
+    justify-content: center;
+}
